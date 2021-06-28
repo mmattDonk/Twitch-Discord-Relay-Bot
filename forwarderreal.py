@@ -20,7 +20,7 @@ TOKEN = os.environ.get("TOKEN")
 
 @bot.event
 async def on_message(message):
-    print("Sent: " + message.content + "\nTo Discord.")
+    print("Sent: " + message.content + "\nTo Twitch.")
 
     if message.channel.id == 853517503913132033:
         if not message.author.bot:
