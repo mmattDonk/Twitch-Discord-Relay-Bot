@@ -44,7 +44,7 @@ class Bot(commands.Bot):
 
             webhook.send(message.author.name + " - " + message.content)
             
-            print("Sent: " + message.content + "\nTo Discord."
+            print("Sent: " + message.content + "\nTo Discord.")
 
         await self.handle_commands(message)
 
