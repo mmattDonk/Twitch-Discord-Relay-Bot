@@ -1,6 +1,10 @@
-# Twitch-Relay-Bot
+# Discord to Twitch to Discord relay bot
+### Discord<>Twitch
 
-## Prerequesits
+## About
+Connect your Twitch and Discord channels together with this bot!
+
+## Prerequisites
 1. Python
     - Windows: https://www.python.org/downloads/
     - MacOS: https://www.python.org/downloads/
