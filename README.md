@@ -4,6 +4,15 @@
 ## About
 Connect your Twitch and Discord channels together with this bot!
 
+## Examples
+Twitch Example:
+
+![Twitch Example](https://i.nuuls.com/nZ3iy.png)
+
+Discord Example:
+
+![Discord Example](https://i.nuuls.com/XpLB1.png)
+
 ## Prerequisites
 1. Python
     - Windows: https://www.python.org/downloads/
