@@ -43,6 +43,8 @@ class Bot(commands.Bot):
             webhook = Webhook.from_url(os.environ.get("webhook_url"), adapter=RequestsWebhookAdapter())
 
             webhook.send(message.author.name + " - " + message.content)
+            
+            print("Sent: " + message.content + "\nTo Discord."
 
         await self.handle_commands(message)
 
