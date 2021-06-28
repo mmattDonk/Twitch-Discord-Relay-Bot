@@ -12,4 +12,4 @@
     1. Change `.env.example` to `.env`
     2. Change all of the keys to be accurate with your setup.
 3. Run `python3 -m pip install -U -r requirements.txt`
-4. Run the bot! `python3 forwarderreal.py`
+4. Run the bot! `python3 bot.py`
