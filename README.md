@@ -1,5 +1,6 @@
 # Discord to Twitch to Discord relay bot
-### Discord<>Twitch
+### Discord<=>Twitch
+### Discord<=>Multiple Twitch
 
 ## About
 Connect your Twitch and Discord channels together with this bot!
