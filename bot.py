@@ -20,11 +20,14 @@ TOKEN = os.environ.get("TOKEN")
 
 @bot.event
 async def on_message(message):
-
     if message.channel.id == 853517503913132033:
         if not message.author.bot:
             await Bot.discord_relay_thing_command(msg=message.content, username=message.author.name)
             print("Sent: " + message.content + "\nTo Twitch.")
+
+@bot.event
+async def on_ready():
+    print("Discord Bot Ready!")
 
 loop.create_task(bot.start(TOKEN))
 loop.create_task(Bot.run())
