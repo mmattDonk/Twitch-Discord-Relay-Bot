@@ -42,11 +42,16 @@ class Bot(commands.Bot):
         if message.author.name != "doobme":
             webhook = Webhook.from_url(os.environ.get("webhook_url"), adapter=RequestsWebhookAdapter())
 
-            webhook.send(message.author.name + " - " + message.content)
+            webhook.send(message.author.name + " - " + message.content + f"\nChannel: `{message.channel.name}`")
             
             print("Sent: " + message.content + "\nTo Discord.")
 
         await self.handle_commands(message)
+        for channel in self.initial_channels:
+            if message.author.name != "doobme":
+                if message.channel.name != channel:
+                    xd = self.get_channel(channel)
+                    await xd.send(f"[Channel: {message.channel.name}] {message.author.name} - {message.content}")
 
     @commands.command(name="ping", aliases=["ding"])    
     async def test_command(self, ctx):
@@ -55,5 +60,5 @@ class Bot(commands.Bot):
     async def discord_relay_thing_command(self, msg, username):
         for channel in self.initial_channels:
             xd = self.get_channel(channel)
-            await xd.send(f"{username} - {msg}")
+            await xd.send(f"[Discord] {username} - {msg}")
 

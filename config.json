@@ -1,7 +1,7 @@
 {
     "nickname" : "doobme",
     "prefix" : "!",
-    "channels" : ["mmatt625"],
+    "channels" : ["mmatt625", "dooblive", "mmattbot"],
     "ownerTTV" : "mmatt625",
     "ownerDISC" : 308000668181069824
 }
