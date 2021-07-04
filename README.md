@@ -21,7 +21,7 @@ Discord Example:
         - MacOS Brew: `brew install python3` & `brew install pip3`
 
 ## Setup
-1. Edit the `config.json` file to fit your liking
+1. Edit the `config.json` file 
 2. Duplicate `.env.example`
     1. Change `.env.example` to `.env`
     2. Change all of the keys to be accurate with your setup.
