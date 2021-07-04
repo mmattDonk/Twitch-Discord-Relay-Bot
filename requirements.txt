@@ -10,7 +10,7 @@ discord.py == 1.6.0
 
 # xd/forwarderreal.py: 11
 # xd/twitchbot.py: 11
-python_dotenv == 0.15.0
+python_dotenv == 0.18.0
 
 # xd/twitchbot.py: 6
 requests == 2.25.1
