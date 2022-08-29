@@ -6,7 +6,7 @@ aiohttp == 3.7.4.post0
 
 # xd/forwarderreal.py: 2,4,5
 # xd/twitchbot.py: 7
-discord.py == 1.7.3
+discord.py == 2.0.1
 
 # xd/forwarderreal.py: 11
 # xd/twitchbot.py: 11
